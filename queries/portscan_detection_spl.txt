@@ -1,0 +1,3 @@
+index="portscan_detected"
+| stats count by src_ip, dest_ip, dest_port
+| where count > 10
