@@ -1,0 +1,2 @@
+index="SQL_Injection_Attempt_Detected"
+| stats count by src_ip, dest_ip, url, signature
